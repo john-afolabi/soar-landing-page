@@ -1,5 +1,6 @@
 import { Header } from "./components/Header.js";
 import { About } from "./components/About.js";
+import { Packages } from "./components/Packages.js";
 
 import "./scss/main.scss";
 
@@ -9,6 +10,7 @@ const app = () => {
 	body.innerHTML = `
 		${Header()}
 		${About()}
+		${Packages()}
     `;
 };
 
