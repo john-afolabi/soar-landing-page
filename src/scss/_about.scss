@@ -1,0 +1,63 @@
+.about {
+	.how-it-works {
+		text-align: center;
+		h3 {
+			color: $primary-color;
+			font-size: 1.4rem;
+		}
+		h2 {
+			font-weight: 600;
+			margin-bottom: 90px;
+		}
+
+		.steps {
+			text-align: left;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			grid-gap: 3em;
+
+			div {
+				span {
+					font-size: 2.5em;
+					font-weight: 600;
+					padding: 15px 25px;
+					border-radius: 50%;
+					color: white;
+					background-color: #403d56;
+				}
+
+				h3 {
+					margin-top: 40px;
+					color: #0a1627;
+					font-size: 1.8rem;
+					text-transform: none;
+				}
+			}
+		}
+		button {
+			margin-top: 50px;
+			padding: 15px 30px;
+		}
+	}
+
+	.success-story {
+		margin-top: 90px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		grid-gap: 10em;
+
+		div {
+			width: 330px;
+			h3 {
+				color: #0a1627;
+				font-size: 3rem;
+				text-transform: none;
+			}
+			p:first-of-type {
+				padding-bottom: 20px;
+				border-bottom: 1px solid #0a162746;
+			}
+		}
+	}
+}

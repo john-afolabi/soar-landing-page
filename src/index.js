@@ -1,4 +1,5 @@
 import { Header } from "./components/Header.js";
+import { About } from "./components/About.js";
 
 import "./scss/main.scss";
 
@@ -6,7 +7,8 @@ const body = document.querySelector(".container");
 
 const app = () => {
 	body.innerHTML = `
-        ${Header()}
+		${Header()}
+		${About()}
     `;
 };
 
