@@ -86,13 +86,14 @@
 	.services-bg {
 		background-color: #f5f4fa;
 		margin: 0 -150px;
+
 		.services {
 			display: grid;
 			grid-template-columns: repeat(4, 1fr);
 			grid-column-gap: 3em;
-			margin: 0 auto;
+			margin: 90px auto;
 			max-width: 1140px;
-			padding-top: 100px;
+			padding: 100px 0;
 			.service-card {
 				background-color: white;
 				text-align: center;

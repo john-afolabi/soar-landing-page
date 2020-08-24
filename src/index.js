@@ -1,6 +1,7 @@
 import { Header } from "./components/Header.js";
 import { About } from "./components/About.js";
 import { Packages } from "./components/Packages.js";
+import { Testimonial } from "./components/Testimonial.js";
 
 import "./scss/main.scss";
 
@@ -11,6 +12,7 @@ const app = () => {
 		${Header()}
 		${About()}
 		${Packages()}
+		${Testimonial()}
     `;
 };
 
