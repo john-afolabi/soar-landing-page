@@ -1,6 +1,6 @@
 export const Packages = (open) => {
 	const template = `
-    <section class="packages">
+    <section class="packages" id="packages  ">
     <div class="pricing">
         <h3>Pricing</h3>
         <h2>Packages for Startups</h2>

@@ -7,7 +7,7 @@ import p from "../img/jpg/partner.jpg";
 
 export const About = (open) => {
 	const template = `
-    <section class="about">
+    <section class="about" id="about">
     <div class="how-it-works">
         <h3>Features</h3>
         <h2>How it Works</h2>

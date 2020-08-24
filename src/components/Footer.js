@@ -9,7 +9,7 @@ export const Footer = (open) => {
 	const template = `
 	<footer>
 			<div class="container">
-				<div class="schedule">
+				<div class="schedule" id="schedule">
 					<div>
 						<h2>Grow across Reddit 🚀</h2>
 						<p>
